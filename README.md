@@ -5,10 +5,10 @@
 ## Needed flags
 
 Assembler:
-`
+```
 --32
-`
+```
 Linker
-`
+```
 -m elf_i386
-`
+```
