@@ -11,7 +11,7 @@
 _start:     # defintion of _start symbol.
    movl $1, %eax   # system call for exiting a program.
 
-   movl $0, %rbx   # status number to return. 
+   movl $0, %ebx   # status number to return. 
 
 int $0x80
 
